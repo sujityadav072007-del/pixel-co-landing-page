@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pixel & Co. is a creative digital studio building thoughtful websites and brand experiences for ambitious businesses.">
+  <title>Pixel & Co. — Digital experiences with purpose</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Pixel and Company home"><span class="logo-mark">P</span> pixel<span>&</span>co.</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#work">Our approach</a><a href="#about">About</a><a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Independent creative digital studio</p>
+        <h1>Good ideas deserve <em>great</em> digital experiences.</h1>
+        <p class="hero-intro">We bring strategy, design, and technology together to help ambitious brands make their next move.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#contact">Start a project <span>↗</span></a><a class="text-link" href="#services">Explore what we do <span>↓</span></a></div>
+        <div class="hero-note"><span class="note-line"></span><span>Thoughtful by design. Built to make a difference.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract geometric artwork representing creative digital work">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-shape shape-orange"></div><div class="art-shape shape-lilac"></div><div class="art-shape shape-blue"></div>
+        <div class="art-sticker">MAKE<br>IT<br>MATTER<span>✳</span></div>
+        <div class="art-caption">Ideas in motion / 001</div>
+      </div>
+    </section>
+
+    <section class="trust-strip"><p>Small studio energy. Big-picture thinking.</p><div><span>STRATEGY</span><span>DESIGN</span><span>DEVELOPMENT</span><span>GROWTH</span></div></section>
+
+    <section class="section-wrap services-section" id="services">
+      <div class="section-heading"><div><p class="eyebrow">01 / What we do</p><h2>From first thought<br>to <em>final pixel.</em></h2></div><p class="section-aside">The right mix of clarity, creativity, and craft to move your business forward.</p></div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01</span><div class="service-icon">✳</div><h3>Brand & strategy</h3><p>Find your point of difference and turn it into a brand people remember.</p><a href="#contact" aria-label="Ask about brand and strategy">↗</a></article>
+        <article class="service-card"><span class="service-number">02</span><div class="service-icon icon-lilac">◈</div><h3>Web design</h3><p>Intuitive, distinctive digital experiences that make every interaction count.</p><a href="#contact" aria-label="Ask about web design">↗</a></article>
+        <article class="service-card"><span class="service-number">03</span><div class="service-icon icon-blue">⌘</div><h3>Development</h3><p>Fast, responsive websites built with care, accessibility, and real users in mind.</p><a href="#contact" aria-label="Ask about development">↗</a></article>
+      </div>
+    </section>
+
+    <section class="approach-section" id="work"><div class="section-wrap approach-inner"><div><p class="eyebrow">02 / How we work</p><h2>Less noise.<br><em>More meaning.</em></h2></div><div class="approach-copy"><p class="approach-lead">Great work starts with good questions.</p><p>We listen first, get clear on the challenge, and build a focused plan. Then we design, test, and refine together—so the result looks good and works hard.</p><a class="button button-light" href="#contact">Work with us <span>↗</span></a></div><div class="approach-stamp">CURIOUS<br>BY NATURE<span>✳</span></div></div></section>
+
+    <section class="section-wrap about-section" id="about"><p class="eyebrow">03 / A little about us</p><div class="about-content"><h2>Good work is a team sport.</h2><p>Pixel & Co. is a studio concept built around a simple belief: the best digital work happens when people, purpose, and detail come together. We partner closely with clients to turn complex challenges into clear, useful experiences.</p></div></section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-inner"><p class="eyebrow">04 / Your next chapter</p><h2>Have a good one<br>in <em>mind?</em></h2><p>Tell us what you're thinking. Let's make something meaningful.</p><a class="button button-dark" href="mailto:hello@pixelandco.example?subject=Project%20enquiry">hello@pixelandco.example <span>↗</span></a><small>Demo contact address — replace with a real business email before launch.</small></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="logo" href="#home"><span class="logo-mark">P</span> pixel<span>&</span>co.</a><p>Independent thinking. Intentional making.</p><span>© <span id="year"></span> Pixel & Co. Concept project.</span></footer>
+</body>
+</html>
